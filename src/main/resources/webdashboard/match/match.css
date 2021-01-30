@@ -163,33 +163,7 @@ div.form {
     background: transparent;
 }
 
-#limelightLocked {
-    display: inline-block;
-    font-size: 2.5em;
-    height: 100%;
-    width: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    color: var(--red);
-    text-align: right;
-    background: inherit;
-    font-weight: bold;
-}
-
-#turretAligned {
-    display: inline-block;
-    font-size: 2.5em;
-    height: 100%;
-    width: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    color: var(--red);
-    text-align: right;
-    background: inherit;
-    font-weight: bold;
-}
-
-#flywheelPrimed {
+#cameraOverlayWrapper > div {
     display: inline-block;
     font-size: 2.5em;
     height: 100%;

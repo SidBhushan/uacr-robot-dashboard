@@ -3,14 +3,15 @@
 /*Colors used through the dashboard*/
 :root {
     --background: #20201E;
-    --foreground: #2b33ff;
+    --foreground: #7888e5;
+    --navbar: #7888e5;
     --grey: darkgrey;
     --white: whitesmoke;
-    --red: #cc0034;
-    --green: #00ff46;
+    --red: #b3002d;
+    --green: #00d93a;
 
     /*Graph colors*/
-    --blue: blue;
+    --blue: #3333ff;
     --purple: mediumpurple;
     --pink: deeppink;
     --orange: orange;

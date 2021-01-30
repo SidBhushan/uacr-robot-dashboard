@@ -31,18 +31,18 @@ which has a console with messages from the logger in the robot code-->
 
     <!--Checkbox to control the log display autoscroll-->
     <input checked id="autoscrollCheckbox" onclick="checkboxUpdate()" type="checkbox">
-    <span id="autoscrollLabel">Autoscroll</span>
+    <span class="checkBoxLabel" id="autoscrollLabel">Autoscroll</span>
 
     <!--Text field to take input for the searching messages-->
     <input autocomplete="off" id="searchField" onkeyup="searchUpdate()" type="text">
 
     <!--Checkbox to control whether the search must match case-->
     <input checked id="matchCaseCheckbox" onclick="checkboxUpdate()" type="checkbox">
-    <span id="matchCaseLabel">Match Case</span>
+    <span class="checkBoxLabel" id="matchCaseLabel">Match Case</span>
 
     <!--Checkbox to control whether the display should only display messages matching the search-->
     <input id="showMatchingCheckbox" onclick="checkboxUpdate()" type="checkbox">
-    <span id="showMatchingLabel">Show Matching</span>
+    <span class="checkBoxLabel" id="showMatchingLabel">Show Matching</span>
 </div>
 
 <!--All js scripts used in the page-->

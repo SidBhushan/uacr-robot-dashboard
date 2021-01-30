@@ -44,7 +44,7 @@ body {
 }
 
 #footer {
-    background: var(--blue);
+    background: var(--foreground);
     display: flex;
     flex-direction: row;
     grid-column-start: 1;
@@ -55,6 +55,7 @@ body {
 
 #clearButton {
     background: var(--red);
+    color: var(--white);
     height: 6vh;
     width: auto;
     border-radius: 1vh;
@@ -76,22 +77,23 @@ body {
     margin-top: 1vh;
 }
 
-#autoscrollCheckbox {
+input[type=checkbox] {
     width: 5vh;
     height: 5vh;
     margin-left: 2vw;
     margin-top: 1.5vh;
+    margin-right: 1em;
     -webkit-appearance: none;
     border-radius: 0.5em;
     background: var(--white);
     opacity: 85%;
 }
 
-#autoscrollCheckbox:checked {
+input[type=checkbox]:checked {
     background: var(--green);
 }
 
-#autoscrollLabel {
+.checkBoxLabel {
     color: var(--background);
     font-size: 1.5em;
     height: 8vh;
@@ -103,53 +105,9 @@ body {
     color: var(--background);
     height: 6vh;
     width: 12vw;
-    font-size: 1em;
+    font-size: 1.3em;
     margin-left: 2vw;
     margin-top: 1vh;
     border-radius: 1vh;
     border: 0;
-}
-
-#matchCaseCheckbox {
-    width: 5vh;
-    height: 5vh;
-    margin-left: 1vw;
-    margin-top: 1.5vh;
-    -webkit-appearance: none;
-    border-radius: 0.5em;
-    background: var(--white);
-    opacity: 85%;
-}
-
-#matchCaseCheckbox:checked {
-    background: var(--green);
-}
-
-#matchCaseLabel {
-    color: var(--background);
-    font-size: 1.5em;
-    height: 8vh;
-    line-height: 8vh;
-}
-
-#showMatchingCheckbox {
-    width: 5vh;
-    height: 5vh;
-    margin-left: 1vw;
-    margin-top: 1.5vh;
-    -webkit-appearance: none;
-    border-radius: 0.5em;
-    background: var(--white);
-    opacity: 85%;
-}
-
-#showMatchingCheckbox:checked {
-    background: var(--green);
-}
-
-#showMatchingLabel {
-    color: var(--background);
-    font-size: 1.5em;
-    height: 8vh;
-    line-height: 8vh;
 }
